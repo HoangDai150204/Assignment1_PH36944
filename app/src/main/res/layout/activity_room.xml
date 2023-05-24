@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".RoomActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#1976d2"
+        android:id="@+id/tieude">
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_back2"
+            android:backgroundTint="#1976d2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phòng ban"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_toEndOf="@id/btnback"
+            android:layout_marginTop="12dp"
+            />
+        <Button
+            android:id="@+id/btnsearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/ic_search"
+            android:backgroundTint="#1976d2"
+            android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnnhansu"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/tieude"
+        android:drawableLeft="@drawable/ic_ph_ban"
+        android:drawablePadding="5dp"
+        android:gravity="center|left"
+        android:text="Nhân sự"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        app:cornerRadius="0dp"
+        android:backgroundTint="#ffffff"/>
+    <View
+        android:id="@+id/vienhansu"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#3ea3f4"
+        android:layout_below="@id/btnnhansu"/>
+
+    <Button
+        android:id="@+id/btnhanhchinh"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/vienhansu"
+        android:drawableLeft="@drawable/ic_ph_ban"
+        android:drawablePadding="5dp"
+        android:gravity="center|left"
+        android:text="Hành chính"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        app:cornerRadius="0dp"
+        android:backgroundTint="#ffffff"/>
+    <View
+        android:id="@+id/viehanhchinh"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#3ea3f4"
+        android:layout_below="@id/btnhanhchinh"/>
+
+    <Button
+        android:id="@+id/btndaotao"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/viehanhchinh"
+        android:drawableLeft="@drawable/ic_ph_ban"
+        android:drawablePadding="5dp"
+        android:gravity="center|left"
+        android:text="Đào tạo"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        app:cornerRadius="0dp"
+        android:backgroundTint="#ffffff"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#3ea3f4"
+        android:layout_below="@id/btndaotao"/>
+
+</RelativeLayout>

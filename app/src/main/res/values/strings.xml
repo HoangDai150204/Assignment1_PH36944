@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Assignment_PH36944</string>
+    <string name="txt_nhapUsername">Nhập username</string>
+    <string name="txt_nhapPassword">Nhập password</string>
+    <string name="chk_save">Ghi nhớ tài khoản</string>
+    <string name="txt_nhapLaiPassword">Nhập lại password</string>
+</resources>
